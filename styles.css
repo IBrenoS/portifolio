@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+header .logo {
+  font-size: 1.5rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  margin: 0 1rem;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header .search-bar input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("hero-bg.jpg") no-repeat center center/cover;
+}
+.hero .hero-content {
+  text-align: center;
+  color: white;
+}
+.hero .hero-content h1 {
+  font-size: 3rem;
+}
+.hero .hero-content .cta-button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #ff9900;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.hero .hero-content .cta-button:hover {
+  background-color: #e68a00;
+}
+
+section {
+  padding: 2rem;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+section .profile-picture {
+  width: 150px;
+  height: 150px;
+  background: url("profile.jpg") no-repeat center center/cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+section .bio {
+  margin-bottom: 2rem;
+}
+section .skills ul {
+  list-style: none;
+  padding: 0;
+}
+section .skills ul li {
+  background-color: #f4f4f4;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+section .project-cards, section .skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+section .project-cards .project-card, section .project-cards .skill-card, section .skill-cards .project-card, section .skill-cards .skill-card {
+  flex: 1 1 calc(33.333% - 1rem);
+  background-color: #f4f4f4;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+section .project-cards .project-card img, section .project-cards .skill-card img, section .skill-cards .project-card img, section .skill-cards .skill-card img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+section .project-cards .project-card h3, section .project-cards .skill-card h3, section .skill-cards .project-card h3, section .skill-cards .skill-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+footer .social-media-links {
+  margin-top: 1rem;
+}
+footer .social-media-links a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+footer .social-media-links a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=styles.css.map */
