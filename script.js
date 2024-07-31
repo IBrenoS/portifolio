@@ -1,6 +1,9 @@
-// scripts.js
-
 $(document).ready(function () {
+  // Burger menu toggle
+  $(".burger-menu").click(function () {
+    $(".nav-links").toggleClass("active");
+  });
+
   // Form submission handling
   $("#contact-form").submit(function (event) {
     event.preventDefault();
