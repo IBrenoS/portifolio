@@ -1,0 +1,15 @@
+<svg height="200" width="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      .outline {
+        fill: white;
+        stroke: black;
+        stroke-width: 8;
+      }
+    </style>
+  </defs>
+  <text x="10" y="150" font-family="Arial" font-size="200" class="outline">&lt;</text>
+  <text x="130" y="150" font-family="Arial" font-size="200" class="outline">b</text>
+  <text x="250" y="150" font-family="Arial" font-size="200" class="outline">/</text>
+  <text x="310" y="150" font-family="Arial" font-size="200" class="outline">&gt;</text>
+</svg>
