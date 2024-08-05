@@ -60,7 +60,7 @@ a:hover {
   border-radius: 10px;
 }
 
-.hamburguer,
+.pc,
 .mobile-header,
 .info-mobile {
   display: none;
@@ -710,9 +710,6 @@ footer {
   width: 100% !important;
   padding: 20px 0;
 }
-footer .development {
-  font-style: italic;
-}
 
 @keyframes shake-animation {
   0%, 100% {
@@ -880,11 +877,11 @@ footer .development {
   .cta div {
     align-items: end !important;
   }
-  .hamburguer,
+  .pc,
   .mobile-header {
     display: block;
   }
-  .hamburguer {
+  .pc {
     cursor: pointer;
     position: fixed;
     z-index: 700;

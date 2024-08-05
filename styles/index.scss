@@ -68,7 +68,7 @@ a {
     border-radius: 10px;
 }
 
-.hamburguer,
+.pc,
 .mobile-header,
 .info-mobile {
     display: none;
@@ -792,10 +792,6 @@ footer {
 
     padding: 20px 0;
 
-    .development {
-        font-style: italic;
-    }
-
 }
 
 // ANIMAÇÕES
@@ -1018,12 +1014,12 @@ footer {
         }
     }
 
-    .hamburguer,
+    .pc,
     .mobile-header {
         display: block;
     }
 
-    .hamburguer {
+    .pc {
         cursor: pointer;
         position: fixed;
         z-index: 700;

@@ -13,12 +13,12 @@ ButtonSeeMore.addEventListener("click", () => {
   }
 });
 
-// MENU HAMBURGUER
+// MENU pc
 document.addEventListener("DOMContentLoaded", function () {
-  const hamburguer = document.querySelector(".hamburguer");
+  const pc = document.querySelector(".pc");
   const navMenu = document.querySelector(".nav-menu");
 
-  hamburguer.addEventListener("click", function () {
+  pc.addEventListener("click", function () {
     navMenu.classList.toggle("active");
   });
 });
